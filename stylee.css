@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    animation-name: akbarjun;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* animation-fill-mode: both; */
+    /* animation-timing-function: cubic-bezier(1, 0.001, 0.001, 1); */
+}
+@keyframes akbarjun {
+    0%{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    left: 0;
+    top: 0;
+    }
+    25%{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    left: 400px;
+    top: 0;
+    }
+    50%{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    left: 400px;
+    top: 400px;
+    }
+    75%{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(58, 58, 22);
+    left: 0px;
+    top: 400px;
+    }
+    100%{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    left: 0px;
+    top: 0;
+    }
+}
+
